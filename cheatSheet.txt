@@ -1,13 +1,22 @@
-sudo <command> - runs command as admin
+sudo <command> - means SuperUserDO, it makes commands run as admin
+man <command> - opens manual page for command (Like ? in packet tracer, it shows you everything you can do with a command)
 mv <target> <destination> - move files/folders
 cp <target> <destination> - copy files/folders
+ls <options> <path> - lists files in a directory
 whoami - lists user currently in use for terminal session
 whatis <command> - provides a simple description for commands
 whereis <command> - shows where a command's source files are located
 pwd - displays absolute path for current location
 usermod <options> <user> - allows for modification of user
-useradd <options> <user> - add users
+passwd <options> <user> - set-up/change passwords for users
+useradd <options> <user> - create users
 userdel <options> <user> - delete users and/or their home directories
 deluser <user> <group> - delete user or remove user from a group
-adduser <user> <group> - add user or add user to a group
+adduser <user> <group> - create user or add user to a group
+groupadd <group> - creates group on the system
+groupdel <group> - deletes group
 find <searchFrom> <options> - find files/folders
+nano <file> - opens the built-in text editor for linux in the terminal (There's also other text editors like gedit, mousepad, pluma, kate, but the biggest problem with them is that you don't know whether or not they exist, so it's not a good idea to get used to them.)
+visudo - edit the sudoers file (/etc/sudoers)
+cat <file> - concatenate files (basically lists everything the file has)
+su <user> - change user (You can also use 'sudo su' to log in as root)

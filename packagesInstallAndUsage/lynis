@@ -1,0 +1,5 @@
+Installation:
+    sudo apt-get install lynis -y
+
+Usage:
+    sudo lynis audit system (audits the system and checks whether config files are secured properly or not)
