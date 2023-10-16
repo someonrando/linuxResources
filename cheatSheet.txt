@@ -1,0 +1,13 @@
+sudo <command> - runs command as admin
+mv <target> <destination> - move files/folders
+cp <target> <destination> - copy files/folders
+whoami - lists user currently in use for terminal session
+whatis <command> - provides a simple description for commands
+whereis <command> - shows where a command's source files are located
+pwd - displays absolute path for current location
+usermod <options> <user> - allows for modification of user
+useradd <options> <user> - add users
+userdel <options> <user> - delete users and/or their home directories
+deluser <user> <group> - delete user or remove user from a group
+adduser <user> <group> - add user or add user to a group
+find <searchFrom> <options> - find files/folders
